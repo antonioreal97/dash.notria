@@ -54,7 +54,7 @@ st.title('Dashboard Avaliativo - CEAGESP/SP')
 
 st.button('Atualizar Dados', on_click=atualizar_dados)
 
-file_path = 'dash.notria/Ceasas/Matriz_Avaliativa_CEAGESP-SP.xlsx'
+file_path = 'Matriz_Avaliativa_CEAGESP-SP.xlsx'
 df = load_data(file_path)
 
 st.sidebar.header('Filtros')

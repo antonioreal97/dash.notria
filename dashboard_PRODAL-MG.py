@@ -54,7 +54,7 @@ st.title('Dashboard Avaliativo - PRODAL/MG')
 
 st.button('Atualizar Dados', on_click=atualizar_dados)
 
-file_path = 'dash.notria/Ceasas/Matriz_Avaliativa_PRODAL-MG.xlsx'
+file_path = 'Matriz_Avaliativa_PRODAL-MG.xlsx'
 df = load_data(file_path)
 
 st.sidebar.header('Filtros')

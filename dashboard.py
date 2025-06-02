@@ -148,7 +148,7 @@ st.title('Dashboard Avaliativo - Ceasas')
 st.button('Atualizar Dados', on_click=atualizar_dados)
 
 # Caminho fixo do arquivo
-file_path = 'dashboard_perguntas/Matriz_Avaliativa_Ceasas-Dashboard.xlsx'
+file_path = 'Matriz_Avaliativa_Ceasas-Dashboard.xlsx'
 # Carrega dados
 df = load_data(file_path)
 

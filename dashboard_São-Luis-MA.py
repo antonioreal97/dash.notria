@@ -54,7 +54,7 @@ st.title('Dashboard Avaliativo - São Luís/MA')
 
 st.button('Atualizar Dados', on_click=atualizar_dados)
 
-file_path = 'dash.notria/Ceasas/Matriz_Avaliativa_São-Luis-MA.xlsx'
+file_path = 'Matriz_Avaliativa_São-Luis-MA.xlsx'
 df = load_data(file_path)
 
 st.sidebar.header('Filtros')

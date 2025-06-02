@@ -138,7 +138,7 @@ st.title('Dashboard Avaliativo - Belem/PA')
 st.button('Atualizar Dados', on_click=atualizar_dados)
 
 # Caminho fixo do arquivo do Ceasa
-file_path = 'dash.notria/Ceasas/Matriz_Avaliativa_Belem-PA.xlsx'
+file_path = 'Matriz_Avaliativa_Belem-PA.xlsx'
 df = load_data(file_path)
 
 # Sidebar de filtros
