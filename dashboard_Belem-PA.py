@@ -129,7 +129,7 @@ st.markdown(
 )
 
 # Logo no topo
-st.image("dash.notria/1.png", width=180)
+st.image("1.png", width=180)
 
 # Título do app
 st.title('Dashboard Avaliativo - Belem/PA')
